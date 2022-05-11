@@ -10,4 +10,9 @@ Languages used:
 - PHP
 - SQL
 
-A small-scale project that has a few restaruants that were manually inputed in the database.
+A small-scale project that has a few restaruants that were manually inputed in the database. <br>
+![Screenshot (31)](https://user-images.githubusercontent.com/101820668/167918737-2d2ac5d5-6517-47ea-9f51-842828867a47.png)
+![Screenshot (26)](https://user-images.githubusercontent.com/101820668/167918866-736d0a98-adc5-489b-8141-5d988dbdc7c0.png)
+![Screenshot (54)](https://user-images.githubusercontent.com/101820668/167919128-22f0005a-0c53-47c8-9cd0-5d290b8b53f3.png)
+![Screenshot (53)](https://user-images.githubusercontent.com/101820668/167919272-5aee90b7-452a-47ab-bd43-44c1e75713c4.png)
+
