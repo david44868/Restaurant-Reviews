@@ -1,5 +1,5 @@
 # Restaurant-Reviews
-This is my first project and it is a restaurant review website I built for my Computer Science Capstone (for my Associate's degree). <br><br>
+This is my first project and it is a simple restaurant review website I built for my Computer Science Capstone (for my Associate's degree). <br><br>
 
 All users can look up restaurants using the search bar and the results would show the restaurant name, their logo, and their average rating. 
 Upon clicking the restaurant, more information about the restaurant is given, such as their website link, their address, and reviews given by registered users. 
