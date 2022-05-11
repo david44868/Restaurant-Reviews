@@ -17,4 +17,4 @@ A small-scale project that has a few restaruants that were manually inputed in t
 ![Screenshot (57)](https://user-images.githubusercontent.com/101820668/167920170-d9d26bab-1d2f-42c4-b50f-a806d621ddc0.png)
 ![Screenshot (54)](https://user-images.githubusercontent.com/101820668/167919128-22f0005a-0c53-47c8-9cd0-5d290b8b53f3.png)
 ![Screenshot (53)](https://user-images.githubusercontent.com/101820668/167919272-5aee90b7-452a-47ab-bd43-44c1e75713c4.png)
-![image](https://user-images.githubusercontent.com/101820668/167920938-ff500cfe-5863-4309-89fd-c14864e96d2d.png)
+![Screenshot (58)](https://user-images.githubusercontent.com/101820668/167921477-58a8d1e8-1f18-402c-b9d6-2bcc014fd486.png)
