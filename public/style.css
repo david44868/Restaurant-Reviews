@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5ba6ec;
+    height: 150px;
+}
+
+h2 {
+    font-family: Verdana;
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+}
+
+h3 {
+    font-family: Verdana;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1em;
+}
+
+ul{
+    font-family: Verdana;
+    font-size: 1.25em;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+ul > li {
+    margin: 1em;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+    gap: 1.5em;
+    border: 2px;
+    border-style: hidden;
+    background-color: rgb(131, 210, 241);
+    border-radius: 10px;
+
+}
+.info > input{
+    width: 30%;
+    height: 5em;
+    border-radius: 10px;
+    border-style: hidden;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.save {
+    width: auto;
+    height: 5em;
+    border-radius: 10px;
+    border-style: hidden;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover, input[type=button]:hover{
+    cursor: pointer;
+    background-color:lightgray;
+}
+
+#header-container {
+    margin-left: 2em;
+    margin-right: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+
+#logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    gap: 1em;
+}
+
+#logo > h1 {
+    font-family: Arial Black;
+    font-size: 3em;
+}
+
+h1 > a {
+    text-decoration: none;
+    color: black;
+}
+
+nav > a {
+    text-decoration: none;
+}
+
+.box {
+    border: black 2px;
+    border-style: hidden;
+    font-size: 2em;
+    background-color: lightgray;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#delete {
+    text-decoration: none;
+    color: red;
+}
+
+#search {
+    text-align: center;
+    padding: 1em;
+}
+
+#top {
+    width: 500px;
+}
+
+.query {
+    width: 70%;
+    padding: 1em;
+    color: black;
+    font-weight: bold;
+}
+
+#search > button, #top > button {
+    width: 10%;
+    padding: 1em;
+}
+
+footer {
+    width: 100%;
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+.slogan {
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    background: rgb(131, 210, 241);
+    color: black;
+    margin: 5px 20px;
+    font-size: 35px;
+    padding: 15px;
+    height: 240px;
+    width: 240px;
+    font-family: arial black;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+.results {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(131, 210, 241);
+    display: flex;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border: solid black;
+}
+
+div > h4 {
+    font-size: 1.5em;
+}
+
+div > h5 {
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+#content{
+    padding: 0.5em;
+}
+
+.search {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.restaurant {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    background-color: rgb(131, 210, 241);
+    border: solid black;
+    position: fixed;
+    height: 60%;
+    left: 25%;
+}
+
+.col1 {
+    height: inherit;
+    margin-right: 0.5em;
+}
+
+.col1 > h4 {
+    margin-bottom: 0.5em;
+}
+
+.col2 {
+    height: inherit;
+    width: 100%;
+    margin-right: 0.5em;
+    padding-top: 1em;
+}
+
+.checked {
+    color: yellow;
+}
+
+.link, .link-right {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    border: solid gray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.star {
+    font-size: 1.5em;
+}
+
+div > p {
+    margin-bottom: 20%;
+}
+
+.link-right {
+    background-color: lightgray;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-between;
+}
+
+#review {
+    resize: none;
+    width: 500px;
+    height: 250px;
+
+}
+
+#quantity {
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.description {
+    padding: 1em;
+    margin: 0.5em;
+    border: solid black;
+}

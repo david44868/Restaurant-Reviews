@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FoodGuide :: Sign Up</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <div id="logo">
+                <h1>
+                    <a href="index.html">FoodGuide</a>
+                </h1>
+                <img src="utensil.png" height=150px width=150px/>
+            </div>
+            <nav>
+                <a href="login.html" class = "box">Log In</a>&nbsp&nbsp
+                <a href="signup.html" class = "box">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+    <h2>Sign up to create reviews for the restaurants you love!</h2>
+    <form method="POST" action="signup.php">
+        <div class="info">
+            <input type="text" placeholder="First name.." required name="firstName">
+            <input type="text" placeholder="Last name.." required name="lastName">
+            <input type="email" placeholder="Email.." required name="email">
+            <input type="password" placeholder="Password.." minlength="8" required name="password">
+            <input type="submit" value="Sign Up">
+        </div>
+    </form>
+</body>

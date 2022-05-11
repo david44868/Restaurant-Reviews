@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FoodGuide :: Log In</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="utensil.png">
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <div id="logo">
+                <h1>
+                    <a href="index.html">FoodGuide</a>
+                </h1>
+                <img src="utensil.png" height=150px width=150px/>
+            </div>
+            <nav>
+                <a href="login.html" class = "box">Log In</a>&nbsp&nbsp
+                <a href="signup.html" class = "box">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+    <h2>Sign in to FoodGuide</h2>
+    <form action="login.php" method="post">
+        <div class="info">
+            <input type="email" placeholder="Email.." required name="email">
+            <input type="password" placeholder="Password.." required name="password">
+            <input type="submit" value="Log In">
+        </div>
+    </form>
+</body>
